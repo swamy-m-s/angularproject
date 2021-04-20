@@ -1,0 +1,99 @@
+.home{
+    background-color: mintcream;
+
+}
+.about img{
+width: 100%;
+height: 800px;
+object-position: center;
+object-fit: cover;
+
+}
+
+.jumbotron{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    color: white;
+}
+
+.display-41{
+    font-size: 40px;
+    justify-content: left;
+    text-justify:right;
+    right: 20%;
+}
+
+@media screen and (max-width:600px){
+    .about img{
+        width: 100%;
+        height: 800px;
+        object-position: center;
+        object-fit: cover;
+        
+        
+    }
+    .jumbotron{
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        color: white;
+    }
+    .display-41{
+        font-size: 15px;
+        padding-right: 20%;
+        text-align: justify;
+    }
+}
+
+.fa {
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Twitter */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+
+    padding-right: 40px;
+    margin: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-github {
+    background: black;
+    color: white;
+
+    padding-right: 40px;
+    margin: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }

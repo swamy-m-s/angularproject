@@ -1,0 +1,42 @@
+.experience{
+    background-color: gainsboro;
+    padding-bottom: 2%;
+}
+
+.experiencehead{
+    padding: 1%;
+    color:tomato;
+    font-size: 90px;
+}
+.flex-grow-1{
+    padding: 1%;
+
+}
+.flex-shrink-0{
+ margin-top: 0%;
+}
+.mb-0{
+    color:orangered;
+}
+.subheading-mb-3{
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    font-size: 20px;
+}
+p{
+    font-size: 30px;
+    text-align: justify;
+}
+
+@media screen and (max-width:600px){
+    .experiencehead{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+        text-align: justify;
+        padding-right: 1%;
+    }
+
+
+}

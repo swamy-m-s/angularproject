@@ -1,0 +1,29 @@
+.skills{
+    background-color: gainsboro;
+    background-size: cover;
+    padding-bottom: 2%;
+
+}
+
+.skillshead{
+    padding: 1%;
+    color:tomato;
+    font-size: 90px;
+}
+
+.skill-list{
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+@media screen and (max-width:600px){
+    .skillshead{
+        font-size: 50px;
+        padding-bottom: 1%;
+    }
+    .skill-list{
+        font-size: 20px;
+    }
+
+
+}
